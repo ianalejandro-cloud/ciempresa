@@ -1,0 +1,53 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Development",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "toolArgs": [
+        "--dart-define=BASE_URL=https://apidev.cibanco.com",
+        "--dart-define=BASIC_AUTH=ZGV2X2NsaWVudF9pZDpkZXZfc2VjcmV0X2tleQ==",
+        "--dart-define=ENVIRONMENT=development",
+        "--dart-define=BASE_URL_AUTH=https://cibc-mcnet-authenticate-238857314839.us-central1.run.app",
+        "--dart-define=CN_CHANEL=CN_105",
+        "--dart-define=BASE_URL_CLIENT=https://235a55605793.ngrok-free.app/softtoken",
+        "--dart-define=APPLICATION=CIEmpresas",
+        "--dart-define=BASE_URL_USER_MANAGEMENT=https://cibc-mcnet-user-management-238857314839.us-central1.run.app"
+      ]
+    },
+    {
+      "name": "QA",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "toolArgs": [
+        "--dart-define=BASE_URL=https://apiqa.cibanco.com",
+        "--dart-define=BASIC_AUTH=UnNQVGZzd2NOY3dQOVZLQVBRWW82OTB2SElya2pyejJ4SVRYNGxwaGs0NUhwMWx0OmFPeHRkUk9vN2llcUlWeFI3SndlaHpLc1d5Rk1rMXRhY3V6Y212R3BudVZBZlo4NjViV3dDYWZsVEVGeUczeWQ=",
+        "--dart-define=ENVIRONMENT=qa",
+        "--dart-define=BASE_URL_AUTH=https://cibc-mcnet-authenticate-238857314839.us-central1.run.app",
+        "--dart-define=CN_CHANEL=CN_105",
+        "--dart-define=BASE_URL_CLIENT=https://235a55605793.ngrok-free.app/softtoken",
+        "--dart-define=APPLICATION=CIEmpresas",
+        "--dart-define=BASE_URL_USER_MANAGEMENT=https://cibc-mcnet-user-management-238857314839.us-central1.run.app"
+      ]
+    },
+    {
+      "name": "Production",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "toolArgs": [
+        "--dart-define=BASE_URL=https://api.cibanco.com",
+        "--dart-define=BASIC_AUTH=cHJvZF9jbGllbnRfaWQ6cHJvZF9zZWNyZXRfa2V5",
+        "--dart-define=ENVIRONMENT=production",
+        "--dart-define=BASE_URL_AUTH=https://cibc-mcnet-authenticate-238857314839.us-central1.run.app",
+        "--dart-define=CN_CHANEL=CN_105",
+        "--dart-define=BASE_URL_CLIENT=https://235a55605793.ngrok-free.app/softtoken",
+        "--dart-define=APPLICATION=CIEmpresas",
+        "--dart-define=BASE_URL_USER_MANAGEMENT=https://cibc-mcnet-user-management-238857314839.us-central1.run.app"
+      ]
+    }
+  ]
+}

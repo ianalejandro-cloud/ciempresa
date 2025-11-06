@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Color de fondo para el splash screen en modo oscuro -->
+    <color name="splash_background">#00A859</color>
+    
+    <!-- Colores adicionales del tema en modo oscuro -->
+    <color name="colorPrimary">#00A859</color>
+    <color name="colorPrimaryDark">#00A859</color>
+    <color name="colorAccent">#E91E63</color>
+    
+    <!-- Colores básicos -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources> 
